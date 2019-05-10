@@ -1,0 +1,135 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="stylesheets/styleDashboard.css" />
+  </head>
+  <body>
+    <h2>Chats</h2>
+    <section class="chats">
+      <section class="all-chats">
+        <section class="total">
+          <h3>Conversations</h3>
+        </section>
+        <section class="waiting">
+          <section>
+            <h4>Total:</h4>
+            <p id="totalChats">0</p>
+          </section>
+          <section>
+            <h4>Waiting:</h4>
+            <p id="waitingChats">0</p>
+          </section>
+          <section>
+            <h4>Answered:</h4>
+            <p id="answeredChats">0</p>
+          </section>
+        </section>
+      </section>
+      <section>
+        <h3>Wait</h3>
+        <section class="wait">
+          <section>
+            <h4>Longest:</h4>
+            <p id="longestWait">0 seconds</p>
+          </section>
+          <section>
+            <h4>Average:</h4>
+            <p id="averageWait">0 seconds</p>
+          </section>
+        </section>
+      </section>
+      <section>
+        <h3>Conversation time</h3>
+        <section class="convo-time">
+          <section>
+            <h4>Longest:</h4>
+            <p id="longestConvo">0 seconds</p>
+          </section>
+          <section>
+            <h4>Average</h4>
+            <p id="averageConvo">0 seconds</p>
+          </section>
+        </section>
+      </section>
+      <section>
+        <h3>Client response</h3>
+        <section class="client-response">
+          <section>
+            <h4>Longest:</h4>
+            <p id="longestResponseTime">0 seconds</p>
+          </section>
+          <section>
+            <h4>Average:</h4>
+            <p id="averageResponseTime">0 seconds</p>
+          </section>
+        </section>
+      </section>
+    </section>
+    <h2>Metadata</h2>
+    <section class="metadata">
+      <section>
+        <h3>Satisfaction</h3>
+        <section class="satisfaction">
+          <section>
+            <h4>Satisfied:</h4>
+            <p id="satisfiedUsers">0</p>
+          </section>
+          <section>
+            <h4>Unsatisfied:</h4>
+            <p id="unsatisfiedUsers">0</p>
+          </section>
+          <section>
+            <h4>Percentage:</h4>
+            <p id="satisfactionPerc">0%</p>
+          </section>
+        </section>
+      </section>
+      <section>
+        <h3>Jobs</h3>
+        <section class="jobs">
+          <section>
+            <h4>Offered:</h4>
+            <p id="jobsOffered">0</p>
+          </section>
+          <section>
+            <h4>Picked:</h4>
+            <p id="jobsPicked">0</p>
+          </section>
+        </section>
+      </section>
+      <section>
+        <h3>Messages</h3>
+        <section class="messages">
+          <section>
+            <h4>Messages sent:</h4>
+            <p id="sentMessages">0</p>
+          </section>
+          <section>
+            <h4>Messages received:</h4>
+            <p id="receivedMessages">0</p>
+          </section>
+          <section>
+            <h4>Privacy messages sent:</h4>
+            <p id="sentPrivacy">0</p>
+          </section>
+        </section>
+      </section>
+      <section>
+        <h3>Keywords</h3>
+        <section class="keywords">
+          <section>
+            <h4>Selected keywords:</h4>
+            <p id="keyword1">thanks: 0</p>
+            <p id="keyword2">yes: 0</p>
+            <p id="keyword3">no: 0</p>
+          </section>
+        </section>
+      </section>
+    </section>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="./../../javascripts/dashboard.js"></script>
+</html>

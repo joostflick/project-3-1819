@@ -1,0 +1,25 @@
+.chats,
+.metadata {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 35vh 35vh;
+}
+
+body > section > section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid orange;
+  border-top: 2px solid orange;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  color: darkgray;
+}
+
+p {
+  color: lightseagreen;
+}
