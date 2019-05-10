@@ -2,7 +2,7 @@
 .metadata {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 35vh 35vh;
+  grid-template-rows: 50vh 50vh;
 }
 
 body > section > section {
